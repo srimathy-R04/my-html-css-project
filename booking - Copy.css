@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+   height: 90vh;
+   width: 100%;
+}
+nav a
+{
+    text-decoration: none;
+    text-decoration-color: none;
+   
+}
+nav a:hover
+{
+    background-color: deeppink;
+
+}
+header{
+    display: flex;
+   
+}
+#header{
+    color:aliceblue;
+    background-color:rgb(4, 63, 112);
+    padding: 10px;
+}
+.head{
+    flex:3;
+    font-size: 1.23em;
+
+}
+nav a{
+     flex: 2;
+     font-size: large;
+    word-spacing: 10px;
+     padding: 10px;
+     color: aliceblue;
+    
+}
+h1{
+     text-align: center; 
+     text-decoration:underline; 
+     text-decoration-color: rgb(13, 50, 80);
+}
+.contain
+{
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    
+}
+.st,.nd{
+    flex: 1; 
+}
+.st img{
+    margin: 20%;
+}
+.nd{
+    margin: 5%;
+    margin-left: 10%;
+
+}
+label{
+    font-size: large;
+}
+input{
+    padding: 2px;
+    width: 500px;
+    color: gray;
+    border-color:lightgrey;
+}
+
+.radio{
+    display: inline-block;
+   
+}
+.but button{
+    margin-left: 40%;
+    text-align: center;
+    padding: 10px;
+    background-color: deeppink;
+    color: white;
+    font-size: large;
+    border: deeppink;
+    margin-bottom: 3%;
+    border-radius: 5%;
+}
+footer
+{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(13, 50, 80);
+    color: aliceblue;
+} 

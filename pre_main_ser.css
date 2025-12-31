@@ -1,0 +1,126 @@
+body{
+    width: auto;
+    height:auto;
+    padding: 5px;
+}
+
+nav a
+{
+    text-decoration: none;
+    text-decoration-color: none;
+   
+}
+nav a:hover
+{
+    background-color: deeppink;
+
+}
+header{
+    display: flex;
+   
+}
+#header{
+    color:aliceblue;
+    background-color:rgb(13, 50, 80);
+    padding: 10px;
+    width: auto;
+}
+.head{
+    flex:3;
+    font-size: 1.23em;
+
+}
+nav a{
+     flex: 2;
+     font-size: large;
+    word-spacing: 10px;
+     padding: 10px;
+     color: aliceblue;
+    
+}
+.right{
+    display: flex;
+   flex-wrap: nowrap;
+   
+   
+  
+}
+.img,.msg{
+    flex: 1;
+}
+.right img{
+   
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+margin: 20%;
+
+}
+.msg{
+    flex: 1;
+    margin: 10%;
+    
+}
+.msg a
+{
+    text-decoration: none;
+}
+button{
+    padding: 3px;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+}
+footer
+{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(13, 50, 80);
+    color: aliceblue;
+}   
+.nxt{
+    display: flex;
+   flex-wrap: nowrap;
+   
+   
+  
+}
+.img1,.msg1{
+    flex: 1;
+}
+.nxt img{
+     max-width: 100%;
+    width: 550px;
+   
+    height: auto;
+    margin: 10%;
+    
+}
+.msg1{
+    flex: 1;
+    margin: 5%;
+    
+}
+.nxt1{
+    display: flex;
+   flex-wrap: nowrap;
+   
+   
+  
+}
+.img2,.msg2{
+    flex: 1;
+}
+.nxt1 img{
+     max-width: 100%;
+    width: 550px;
+   
+    height: auto;
+    margin: 10%;
+    
+}
+.msg2{
+    flex: 1;
+    margin: 5%;
+    
+}
